@@ -1,0 +1,25 @@
+# Build local e temporários
+target/
+!.mvn/
+.mvn/wrapper/*.jar
+bin/
+*.class
+
+# Dependências e IDEs
+.idea/
+.vscode/
+*.iml
+.settings/
+.classpath
+.project
+
+# Logs e Git
+.git
+.gitignore
+log/
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
